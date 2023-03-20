@@ -1,8 +1,8 @@
 # Laravel API Response Formatter
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/okriiza/response-formatter.svg?style=flat-square)](https://packagist.org/packages/okriiza/laravel-api-response-formatter)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/okriiza/laravel-api-response-formatter.svg?style=flat-square)](https://packagist.org/packages/okriiza/laravel-api-response-formatter)
 [![Total Downloads](https://img.shields.io/packagist/dt/okriiza/laravel-api-response-formatter.svg?style=flat-square)](https://packagist.org/packages/okriiza/laravel-api-response-formatter)
-![GitHub Actions](https://github.com/okriiza/laravel-api-response-formatter/actions/workflows/main.yml/badge.svg)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 a simple package Format API responses throughout your Laravel application
 
