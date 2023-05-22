@@ -2,8 +2,8 @@
 
 namespace Okriiza\ApiResponseFormatter;
 
-use Illuminate\Http\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
+use Illuminate\Http\JsonResponse;
 
 class ApiResponseFormatter
 {
@@ -17,7 +17,7 @@ class ApiResponseFormatter
     private static $response = [
         'meta' => [
             'code' => 200,
-            'status' => true,
+            'success' => true,
             'message' => null,
         ],
         'result' => null,
