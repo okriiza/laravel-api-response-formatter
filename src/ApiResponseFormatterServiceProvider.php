@@ -6,9 +6,6 @@ use Illuminate\Support\ServiceProvider;
 
 class ApiResponseFormatterServiceProvider extends ServiceProvider
 {
-  public function boot()
-  {
-  }
 
   public function register()
   {
