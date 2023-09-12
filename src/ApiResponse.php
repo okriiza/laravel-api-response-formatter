@@ -5,7 +5,7 @@ namespace Okriiza\ApiResponseFormatter;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Http\JsonResponse;
 
-class ApiResponseFormatter
+class ApiResponse
 {
 
     /**

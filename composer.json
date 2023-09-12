@@ -1,51 +1,55 @@
 {
-    "name": "okriiza/laravel-api-response-formatter",
-    "description": "a simple package Format API responses throughout your Laravel application",
-    "keywords": ["okriiza", "api-response-formatter", "laravel api response formatter", "laravel api response formatter helpers"],
-    "homepage": "https://github.com/okriiza/laravel-api-response-formatter",
-    "license": "MIT",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Rendi Okriza",
-            "email": "okriizaa@gmail.com",
-            "homepage": "https://okriiza.my.id",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": "^7.4 | ^8.0",
-        "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^4.0|^5.0|^6.0|^7.0|^8.0",
-        "phpunit/phpunit": "^7.0|^8.0|^9.0|^9.5"
-    },
-    "autoload": {
-        "psr-4": {
-            "Okriiza\\ApiResponseFormatter\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Okriiza\\ApiResponseFormatter\\Tests\\": "tests/"
-        }
-    },
-    "config": {
-        "sort-packages": true,
-        "optimize-autoloader": true
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Okriiza\\ApiResponseFormatter\\ApiResponseFormatterServiceProvider"
-            ]
-        }
-    },
-    "scripts": {
-        "test": "./vendor/bin/phpunit"
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+  "name": "okriiza/laravel-api-response-formatter",
+  "description": "a simple package Format API responses throughout your Laravel application",
+  "keywords": [
+    "okriiza",
+    "api-response-formatter",
+    "laravel api response formatter",
+    "laravel api response formatter helpers"
+  ],
+  "homepage": "https://github.com/okriiza/laravel-api-response-formatter",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Rendi Okriza",
+      "email": "okriizaa@gmail.com",
+      "homepage": "https://okriiza.my.id",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.4 | ^8.0",
+    "illuminate/support": "^6.0|^7.0|^8.0|^9.0|^10.0"
+  },
+  "require-dev": {
+    "orchestra/testbench": "^4.0|^5.0|^6.0|^7.0|^8.0",
+    "phpunit/phpunit": "^7.0|^8.0|^9.0|^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Okriiza\\ApiResponseFormatter\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Okriiza\\ApiResponseFormatter\\Tests\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "optimize-autoloader": true
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Okriiza\\ApiResponseFormatter\\ApiResponseServiceProvider"
+      ]
+    }
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }
-

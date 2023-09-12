@@ -55,7 +55,7 @@ Here's an example of how you can use the `Laravel API Response Formatter` class 
 ```php
 <?php
 
-use Okriiza\ApiResponseFormatter\ApiResponseFormatter;
+use Okriiza\ApiResponseFormatter\ApiResponse;
 
 class UserController extends Controller
 {
@@ -64,9 +64,9 @@ class UserController extends Controller
         $user = User::find($id);
 
         if ($user) {
-            return ApiResponseFormatter::success($user);
+            return ApiResponse::success($user);
         } else {
-            return ApiResponseFormatter::notFound(null, 'User not found');
+            return ApiResponse::notFound(null, 'User not found');
         }
     }
 
@@ -75,12 +75,12 @@ class UserController extends Controller
         // Validation logic
 
         if ($validationFails) {
-            return ApiResponseFormatter::failedValidation($validationErrors);
+            return ApiResponse::failedValidation($validationErrors);
         }
 
         $user = User::create($request->all());
 
-        return ApiResponseFormatter::created($user);
+        return ApiResponse::created($user);
     }
 }
 ```
