@@ -10,8 +10,8 @@
 
 ## Requirements
 
-- PHP `^7.4 | ^8.0`
-- Laravel 6, 7, 8, 9 or 10
+- PHP `^7.4 | ^8.0 | ^8.1 | ^8.2 | ^8.3`
+- Laravel 6, 7, 8, 9, 10 or 11
 
 ## Installation
 
